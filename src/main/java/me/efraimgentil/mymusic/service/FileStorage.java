@@ -7,6 +7,6 @@ import java.util.Optional;
  */
 public interface FileStorage {
 
-    Optional<FilePointer> findFile(String path);
+    FilePointer findFile(String path);
 
 }
